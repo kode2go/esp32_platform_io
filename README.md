@@ -16,10 +16,12 @@ platformio init --board esp32dev
 
 Output:
 
+```
 wifi_scan_pio/
 ├── platformio.ini         <-- Build config
 └── src/
     └── main.cpp           <-- Your sketch goes here
+```
 
 > Copy code:
 
@@ -66,4 +68,8 @@ platformio run --target upload --upload-port COM9
 
 ```
 platformio device monitor -p COM9 -b 115200
+```
+
+```
+platformio device list
 ```
